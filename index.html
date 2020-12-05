@@ -1,0 +1,702 @@
+<!doctype html>
+<!--Color sheme [#b8d8d8, #7a9e9f, #4f6367, #eef5db, #fe5f55]-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online CV</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload=display_time();>
+
+    <nav role="navigation">
+        <ul class="nav nav-pills justify-content-center flex-column flex-md-row" role="tablist">
+            <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link active" data-toggle="tab" href="#about">About <span class="fa fa-user"></span></a></li>
+            <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#education">Education <span class="fa fa-graduation-cap"></span></a></li>
+            <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#projects">Projects <span class="fa fa-cogs"></span></a></li>
+            <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#experience">Experience <span class="fa fa-wrench"></span></a></li>
+            <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" data-toggle="tab" href="#skills">Skills <span class="fa fa-key"></span></a></li>
+        </ul>
+    </nav>
+    <div class="tab-content">
+        <div class="tab-pane container active" id="about">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="resources\phonepicutres-TA.jpg" alt="thumbnail" class="img-thumbnail">
+                    <br>
+                    <br>
+                    <h5><span class="fa fa-phone"></span> <span class="redhighlight">0851884702</span></h5>
+                    <h5><span class="fa fa-envelope"></span> <span class="redhighlight">deividasrakauskas@gmail.com</span></h5>
+                    <h5><span class="fa fa-home"></span> 68 Commons Rd, <br>Ros Na Rí, Duffsland,<br>Navan, Co. Meath, C15 X0T2 </h5>
+                </div>
+                <div class="col-sm-6">
+                    <h1>Deividas <span class="redhighlight">Rakauskas</span></h1>
+                    <p>Bachelors of Computing student at TU Dublin Tallaght</p>
+                    <P> <span class="redhighlight">Confident programmer</span> currently attending a BSc in Computing. Developed programs using Java, SQL, JavaScript, C++ and Python, React
+                        and websites using Node.JS, HTML5 and Play Framework. Gained good customer-facing experience while
+                        working part-time and great interpersonal skills from both college team-based projects and work.</P>
+                    <a class="btn" href="resources\cv.pdf" target="_blank">View CV <span class="fa fa-file-pdf-o"></span></a>
+                    <a class="btn" href="mailto:deividasrakauskas@gmail.com">Contact me <span class="fa fa-envelope"></span></a>
+                    <br>
+                    <a href="https://github.com/akantor333" target="_blank"><img src="resources\github.png"
+                            alt="githublogo" style="height: 3em;" class="logo"></a>
+                    <a href="https://ie.linkedin.com/in/deividasrakauskas" target="_blank"><img
+                            src="resources\linkedin.png" alt="linkedinlogo" class="logo"></a>
+                     <br><span id="time"></span>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="education">
+            <div class="text-center">
+                <a href="https://www.tudublin.ie/"><img src="resources/collage.png" class="img-fluid" alt="collage" style="height: 20em;"></a>
+            </div>
+            <h2>Bachelor of Science (Honours) in Computing with Software Development</h2>
+            <h2>Technological University Dublin Tallaght Campus</h2>
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#year4">4th Year</a></li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#year3">3rd Year</a></li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#year2">2nd Year</a></li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#year1">1st Year</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane container active" id="year4">
+                    <h3>GPA : <span class="redhighlight">TBA</span></h3>
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><span class="redhighlight">Final Year Project</span></th>
+                                <th scope="row"><span class="redhighlight">TBA</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Enterprise Application Development 1</th>
+                                <th scope="row">TBA</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Enterprise Performance Architecture</th>
+                                <th scope="row">TBA</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Advanced Machine Learning</th>
+                                <th scope="row">TBA</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Interactive Media Design</th>
+                                <th scope="row">TBA</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Information Management</th>
+                                <th scope="row">TBA</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane container fade" id="year3">
+                    <h3>GPA : <span class="redhighlight">3.04</span></h3>
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Big Data Technologies</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Data Structures and Algorithms</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Data Analytics</th>
+                                <th scope="row">B-</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Server Side Web Development</th>
+                                <th scope="row">C+</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cloud Services and Distributed Computing</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Operating Systems</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane container fade" id="year2">
+                    <h3>GPA : <span class="redhighlight">2.94</span></h3>
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><span class="redhighlight">2nd Year Project</span></th>
+                                <th scope="row"><span class="redhighlight">A</span></th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Database Admin & Analysis</th>
+                                <th scope="row">C</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Management Science</th>
+                                <th scope="row">A</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Routing & Switching Essentials</th>
+                                <th scope="row">C+</th>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Information Security</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Software Development 4</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Advanced Database Technologies</th>
+                                <th scope="row">C</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Discrete Mathematics 2</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Network Fundamentals</th>
+                                <th scope="row">B-</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Software Quality Assurance and Testing</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Software Development 3</th>
+                                <th scope="row">D</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Web Design and Development</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane container fade" id="year1">
+                    <h3>GPA : <span class="redhighlight">3.42</span></h3>
+                    <table class="table">
+                        <thead class="thead">
+                            <tr>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Software Development 1</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Software Development 2</th>
+                                <th scope="row">A</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Object Oriented System Analysis</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Discrete Mathematics 1</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Statistics</th>
+                                <th scope="row">A</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Database Fundamentals</th>
+                                <th scope="row">B</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Operating System Fundamentals</th>
+                                <th scope="row">A</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Computer Architecture</th>
+                                <th scope="row">B-</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Business & Information Systems</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Learning to Learn</th>
+                                <th scope="row">A</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Social Media Communications</th>
+                                <th scope="row">B-</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">Web & Interface Fundamentals</th>
+                                <th scope="row">B+</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane container fade" id="projects">
+
+            <div class="row">
+
+                <div class="col-sm-5 card" style="margin-top: 4em;">
+                    <img class="card-img-top" src="resources\projectgame.PNG" alt="projectgame image">
+                    <div class="card-body">
+                        <h4>Video Game Project</h4>
+                        <a href="#videogamemodal" data-toggle="modal" data-targer="#videogamemodal"
+                            class="stretched-link"></a>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 card" style="margin-top: 4em;">
+                    <img class="card-img-top" src="resources\plantidcard.png" alt="projectlearnnature image"
+                        style="background-color: white;">
+                    <div class="card-body">
+                        <h4>Image Recognition App</h4>
+                        <a href="#iramodal" data-toggle="modal" data-targer="#iramodal" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 card" style="margin-top: 4em;">
+                    <img class="card-img-top" src="resources\play.png" alt="playproject image"
+                        style="background-color: white;">
+                    <div class="card-body">
+                        <h4>Play Framework Website</h4>
+                        <a href="#playmodal" data-toggle="modal" data-targer="#playmodal" class="stretched-link"></a>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5 card" style="margin-top: 4em;">
+                    <img class="card-img-top" src="resources\projectkpi.png" alt="kpi image"
+                        style="background-color: white;">
+                    <div class="card-body">
+                        <h4>Key Performance Indicators</h4>
+                        <a href="#kpimodal" data-toggle="modal" data-targer="kpimodal" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="videogamemodal" tabindex="-1" role="dialog" aria-labelledby="videogameLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="videogameLabel">Video Game Project 2015</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="resources/gamesalad.jpg" style="width: 5em;">
+                            <img src="resources/photoshop.png" style="width: 5em;">
+                            <img src="resources/illustrator.png" style="width: 5em;">
+                            <p><span class="redhighlight">Galactic Assault</span> is a video game project I did when I
+                                was studying Game Design in TU Dublin - Dublin Campus</p>
+                            <p>It was a one semester long project where I had to design a video game from scratch. It
+                                was based on a famous video game called Space Invaders with multiple different twists.
+                            </p>
+                            <p><span class="redhighlight">Game Salad</span> was used to assemble the whole game. It did
+                                not require any coding but the logic of all moving parts, the artwork and the sound were
+                                all done by me.</p>
+                            <p>I used <span class="redhighlight">Adobe Photoshop and Adobe Illustrator</span> to create
+                                the artwork. It taught me a lot about 2d design.</p>
+                            <a href="https://www.youtube.com/watch?v=iQczP1F6zrw" target="_blank"><button
+                                    class="btn">Video Demo</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="iramodal" tabindex="-1" role="dialog" aria-labelledby="iraLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="iraLabel">Image Recognition App 2020</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="resources/react.png" style="width: 5em;">
+                            <img src="resources/javascript.png" style="width: 5em;">
+                            <img src="resources/plantid.png" style="width: 5em;">
+                            <p><span class="redhighlight">Learn Nature</span> is my final year project for my TU Dublin
+                                Computing course.</p>
+                            <p>It is an image recognition phone application that lets you take a picture of any flora,
+                                detects what it is, and provides you with relevant information based on your age. For
+                                example children will get fun facts type of info while adults will get very in depth
+                                explanations on what it is and how it works.</p>
+                            <p>This project is developed in <span class="redhighlight">React</span> and packaged as an
+                                APK on the Play Store. It is developed over 1 year as my last year of collage. React is
+                                a <span class="redhighlight">JavaScript</span> based framework, which has left me with
+                                great experiance in this language.</p>
+                            <p>It uses <span class="redhighlight">Plant.id</span> API to identify the plants. This is an
+                                API available from FlowerChecker.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="playmodal" tabindex="-1" role="dialog" aria-labelledby="playLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="playLabel">Play Framework Website 2018</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="resources/play.png" style="width: 5em;">
+                            <img src="resources/java.png" style="width: 5em;">
+                            <p>A team project involving the design and creation of a website which has the ability to
+                                interact with the database and persist any changes. We created a website which lets
+                                users post fictional stories and share them with other users. Functions include:
+                                creating accounts, logging in, adding/modifying and deleting stories, posting comments,
+                                adding ratings, admin privileges to curate stories, and allowing users to save them as
+                                drafts before posting.</p>
+                            <p><span class="redhighlight">Play Framework</span> was used in the development of this
+                                project. It combines <span class="redhighlight">Java, HTML5, JavaScript, Scala, SQL and
+                                    CSS</span> into one place, which allows for object oriented website design. This
+                                project left me highly proficient in these technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="kpimodal" tabindex="-1" role="dialog" aria-labelledby="kpiLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="kpiLabel">Key Performance Indicators Project 2020</h5>
+                        </div>
+                        <div class="modal-body">
+                            <img src="resources/metabase.png" style="width: 5em;">
+                            <img src="resources/sql.jpg" style="width: 5em;">
+                            <img src="resources/linux.png" style="width: 5em;">
+                            <p>This was my project assigned to me during my Internship as an IT Intern in Dunnes Stores.
+                                It was a dual effort with my partner from collage whom was with me during this
+                                intenrship. It consisted of having multiple dashboards to be displayed on in office
+                                TV's. </p>
+                            <p>We were given a new application called <span class="redhighlight">Metabase</span>, it was
+                                not used in the company before so we learned and became proficient with it during this
+                                project. Metabase is an application which accepts databases and lets you query them to
+                                be displayed as KPIs/Graphs/Charts etc, Much like Tableau.</p>
+                            <p>During the lifecycle of this project I learned to manage <span class="redhighlight">Linux
+                                    Systems</span>, as one was given to us to host metabase on and do our work.</p>
+                            <p>Metabase has a high dependancy on <span class="redhighlight">SQL</span>, each is written
+                                in raw SQL code. As a result I have high skills in SQL code, Linux systems and scripts,
+                                Database management and KPI design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="tab-pane container fade" id="experience">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#dunnes"
+                                aria-expanded="true" aria-controls="dunnes">
+                                Dunnes Stores - IT Intern
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="dunnes" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="https://www.dunnesstores.com/" target="_blank"><img src="resources/dunnes.png" class="img-fluid"></a>
+                                    <h4>19 January 2020 - 19 July 2020</h4>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h3>Main Responsibilities</h3>
+                                    <p><span class="redhighlight">KPI (Key Performance Indicator) Project</span><br>
+                                        Included Metabase, Advanced SQL coding, and Data Analysis</p>
+                                    <p><span class="redhighlight">Node JS</span><br>
+                                        Included Javascript, HTML and CSS, and making webapps</p>
+                                    <p><span class="redhighlight">Linux</span><br>
+                                        Scripting, SSH and File Management</p>
+                                    <p><span class="redhighlight">Database Admin</span><br>Administration of MSSQL/SQL
+                                        Server Databases</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#dominos"
+                                aria-expanded="true" aria-controls="dominos">
+                                Dominos Pizza - Manager
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="dominos" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="https://www.dominos.ie/store?start=True" target="_blank"><img src="resources/dominos.png" class="img-fluid"></a>
+                                    <h4> September 2018 - September 2020</h4>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h3>Main Responsibilities</h3>
+                                    <p><span class="redhighlight">Staff Management</span><br>
+                                        Included taking care of staff, training and ensuring work is done</p>
+                                    <p><span class="redhighlight">Running Shifts</span><br>
+                                        Making sure operations are smooth and targets are met within a busy environment</p>
+                                    <p><span class="redhighlight">Administration</span><br>
+                                        Paperwork, Money handling and emails</p>
+                                    <p><span class="redhighlight">Customer Care</span><br>
+                                        Customer focus, providing good service and solving issues</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane container fade" id="skills">
+            <div class=row>
+                <div class="col-sm-6">
+            <h1>Languages</h1>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> JavaScript</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> Java</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> SQL</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> HTML5 & CSS</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Python</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> C++</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> C#</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Bash</p>
+            </div>
+            <div class="col-sm-6">
+                <h1>Frameworks</h1>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> Node.JS</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Play Framework</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> React</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Blazor</p>
+            </div>
+        </div>
+        <div class=row>
+            <div class="col-sm-6">
+            <h1>Applications</h1>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> Metabase</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> GitHub</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Azure</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Google Cloud</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Excel</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Adobe Photoshop</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Adobe Illustrator</p>
+            </div>
+            <div class="col-sm-6">
+            <h1>Concepts</h1>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> Key Performance Indicators</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> Data Analysis</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Operating Systems</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Machine Learning</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Video Games</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Database Admin</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Scripting</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> Networking</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</body>
+
+<style>
+    #time{
+        font-size: 1.5em;
+    }
+    #skills p{
+        font-size: 1.5em;
+    }
+#skills h1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+    .checked{
+        color:#fe5f55
+    }
+
+    #skills h4{
+        margin: 1em;
+        background: rgb(184,216,216);
+        background: linear-gradient(195deg, rgba(184,216,216,1) 0%, rgba(238,245,219,1) 100%);
+        min-height: 3em;
+    }
+    #experience .card-header {
+        background-color: #4f6367;
+    }
+
+    #experience .card-body {
+        padding: 2em;
+    }
+
+    #experience img {
+        margin: 2em;
+    }
+
+    #experience button {
+        text-decoration: none;
+        width: 100%;
+    }
+
+    #projects .card {
+        width: 100%;
+        background-color: #eef5db;
+        box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 0.2), 0 2em 4em 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #projects .card:hover {
+        box-shadow: 0 1em 2em 0 rgba(0, 0, 0, 1), 0 2em 4em 0 rgba(0, 0, 0, 1);
+    }
+
+    #projects .card img {
+        width: 100%;
+    }
+
+    #projects .card-body {
+        text-align: center;
+        padding: 1em;
+        color: #4f6367;
+    }
+
+    #education h2 {
+        text-align: center;
+    }
+
+    #education a:hover {
+        color: #fe5f55;
+    }
+
+    #education .nav .active {
+        background-color: #4f6367 !important;
+        color: #eef5db !important;
+    }
+
+    #education a {
+        color: #4f6367;
+    }
+
+    tr {
+        color: #4f6367;
+    }
+
+    .thead {
+        background-color: #4f6367;
+    }
+
+    .thead tr {
+        color: #eef5db;
+    }
+
+    .logo {
+        height: 4em;
+        margin-top: 3em;
+    }
+
+    .btn:hover {
+        color: #fe5f55;
+    }
+
+    .btn {
+        text-decoration: none;
+        color: #eef5db;
+        background-color: #4f6367;
+        margin-right: 1em;
+    }
+
+    nav a:hover {
+        color: #fe5f55;
+    }
+    nav .active {
+        background-color: #eef5db  !important;
+        color:#4f6367 !important;
+    }
+
+    .redhighlight {
+        color: #fe5f55;
+    }
+
+    nav {
+        background-color: #4f6367;
+    }
+
+    .img-thumbnail {
+        width: 100%;
+    }
+
+    nav .nav-tabs {
+        text-align: center;
+        height: 4em;
+    }
+
+    nav .nav-item,
+    nav .nav-link {
+        height: 100%;
+        font-size: 1.2em;
+        color: #eef5db;
+    }
+
+    .tab-pane {
+        padding: 1em;
+        background-color: #eef5db;
+        color: #4f6367;
+    }
+
+    html,
+    body {
+        min-height: 100%;
+    }
+
+    body {
+        background-color: #eef5db;
+    }
+</style>
+
+<script type="text/javascript">     
+    function display_t(){
+        var refresh=1000;
+        mytime=setTimeout('display_time()',refresh)
+    }
+
+    function display_time(){
+        var x = new Date()
+        var y = x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds() + " " + x.getDate() + "/" + x.getMonth() + "/" + x.getFullYear()
+        document.getElementById('time').innerHTML = y;
+        display_t();
+    }
+</script>
+
+</html>
