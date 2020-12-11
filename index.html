@@ -313,6 +313,9 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="videogameLabel">Video Game Project 2015</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
                         </div>
                         <div class="modal-body">
                             <img src="resources/gamesalad.jpg" style="width: 5em;">
@@ -341,6 +344,9 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="iraLabel">Image Recognition App 2020</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
                         </div>
                         <div class="modal-body">
                             <img src="resources/react.png" style="width: 5em;">
@@ -369,6 +375,9 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="playLabel">Play Framework Website 2018</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
                         </div>
                         <div class="modal-body">
                             <img src="resources/play.png" style="width: 5em;">
@@ -394,6 +403,9 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="kpiLabel">Key Performance Indicators Project 2020</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
                         </div>
                         <div class="modal-body">
                             <img src="resources/metabase.png" style="width: 5em;">
@@ -511,6 +523,7 @@
             <h1>Applications</h1>
                 <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> Metabase</p>
                 <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span> GitHub</p>
+                <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Tableau</p>
                 <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Azure</p>
                 <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Google Cloud</p>
                 <p><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span> Excel</p>
@@ -693,7 +706,9 @@
 
     function display_time(){
         var x = new Date()
-        var y = x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds() + " " + x.getDate() + "/" + x.getMonth() + "/" + x.getFullYear()
+        var hours = ("0" + x.getHours).slice(-2);
+        var seconds = ("0" + x.getSeconds).slice(-2);
+        var y = ("0" + x.getHours()).slice(-2) + ":" + ("0" + x.getMinutes()).slice(-2) + ":" + ("0" + x.getSeconds()).slice(-2) + " " + ("0" + x.getDate()).slice(-2) + "/" + ("0" + x.getMonth()).slice(-2) + "/" + x.getFullYear()
         document.getElementById('time').innerHTML = y;
         display_t();
     }
